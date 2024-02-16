@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F7E2E2;
+}
+
+.parent1{
+    position: relative;
+    top: 70px;
+    left: 300px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 800px;
+    width: 600px;
+    background-color: rgb(58, 68, 68);
+    
+}
+
+.parent2{
+    position: relative;
+    top: -730px;
+    left: 900px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 800px;
+    width: 600px;
+    background-color: rgb(33, 37, 37);
+    
+}
+
+#heading{
+    color: white;
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    font-weight: lighter;
+}
+
+.inputs{
+    color: white;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 500px;
+}
+
+#name{
+    font-size: larger;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+#mail1{
+    position: relative;
+    font-size: larger;
+    top: 160px;
+    left: 50px;
+}
+
+#sub{
+    font-size: larger;
+    position: relative;
+    top: 220px;
+    left: 50px;
+}
+
+#msg{
+    font-size: larger;
+    position: relative;
+    top: 280px;
+    left: 50px;
+}
+
+.inputs:focus{
+    outline: none;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    height: 60px;
+    width: 150px;
+    position: relative;
+    left: 50px;
+    top: 360px;
+    border-radius: 5px;
+}
+
+button > a{
+    text-decoration: none;
+    color: white;
+}
+
+button:hover{
+    border: 1px solid white;
+}
+
+#contact{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#grey{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+#location{
+    /* border-radius: 50%; */
+    position: relative;
+    top: 100px ;
+    left: 50px;
+    /* background-color: rgba(234, 234, 234, 0.8); */
+}
+
+#add_white1{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 87px;
+    left: 55px;
+
+}
+
+#add1{
+    color:grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 87px;
+    left: 65px;
+
+}
+#add2{
+    color:grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 100px;
+    left: 87px; 
+}
+
+
+
+#phn{
+    border-radius: 50%;
+    position: relative;
+    top: 150px ;
+    left: 50px;
+}
+
+#add_white2{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 140px;
+    left: 65px;
+
+}
+
+#add3{
+    color:grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 140px;
+    left: 87px; 
+}
+
+#mail-img{
+    /* border-radius: 50%; */
+    position: relative;
+    top: 200px ;
+    left: 50px;
+}
+
+#add_white3{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 190px;
+    left: 65px;
+
+}
+
+#add4{
+    color:grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 190px;
+    left: 87px; 
+}
+
+#web{
+    /* border-radius: 50%; */
+    position: relative;
+    top: 250px ;
+    left: 50px;
+}
+
+#add_white4{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 243px;
+    left: 65px;
+
+}
+
+#add5{
+    color:grey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 243px;
+    left: 87px;  
+}
+
+
+
+

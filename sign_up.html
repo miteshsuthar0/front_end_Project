@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body{
+            background-image: url(../IMG/fabric-pink-tender-pink-wallpaper.jpg);
+        }
+        #white{
+            margin-top: 12%;
+            margin-left: 37.5%;
+            height: 700px;
+            width:25%;
+            /* background-color: white; */
+            border: 2px solid black;
+            border-radius: 1rem;
+            box-shadow: -3px -3px 9px #aaa9a9a2,
+              3px 3px 7px rgba(147, 149, 151, 0.671);
+        }
+        #data{
+            padding-left: 30px;
+            font-size: 25px;
+            margin-bottom: 5px;
+            width: 130%;
+               
+        }
+        #data2{
+            padding-left: 30px;
+            font-size: 25px;
+            margin-bottom: 20px;
+            width: 130%;
+        }
+
+        #login_button{
+            background-color: black;
+            color: white;
+            margin-top: 15%;
+            margin-left: 35%;
+            height: 40px;
+            width: 30%;
+            border-radius: 35px;
+            font-size: 20px;
+            font-family: 'Libre Baskerville', serif;
+        }
+        #login_button:hover{
+            border:4px black solid;
+        }
+        .inp{
+            border-radius: 35px;
+            height: 25px;
+            width: 70%;
+            display: flex;
+            justify-content: right;
+        }
+        #data input{
+            height: 25px;
+            width: 50%;
+        }
+        #data2 input{
+            height: 25px;
+            width: 50%;
+        }
+        a{
+            color: black;
+            margin-left: 7%;
+            margin-top: 100px;
+            font-size: large;
+        }
+        button{
+            margin-top: 2%;
+        }
+        #data2{
+            /* margin-bottom: 7%; */
+        }
+        #data3{
+            padding-left: 30px;
+            font-size: 25px;
+            margin-bottom: 5px;
+        }
+        #data4{
+            padding-left: 30px;
+            font-size: 25px;
+            margin-bottom: 5px;
+        }
+        #data5{
+            padding-left: 30px;
+            font-size: 25px;
+            margin-bottom: 5px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="white" >
+        <h1  align="center">Sign Up</h1>
+        <br>
+        <div id="data"><label for=""> Firstname: </label><input type="text" class="inp"><br></div>
+        <div id="data2"><label for=""> Lastname :  </label> <input type="text" class="inp" ></div>
+       <div id="data4"><label for=""> Mobile Number :  </label> <input type="text" class="inp" ><br></div>
+       <div id="data5"><label for=""> Email Address :  </label> <input type="text" class="inp" ><br></div>
+       <a href="./login_page.html">Already have an account ? Sign IN</a>
+       <button  id="login_button" href="">Login</button>
+    </div>
+</body>
+</html>
